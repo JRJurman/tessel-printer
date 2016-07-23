@@ -5,7 +5,6 @@
   "main": "index.js",
   "dependencies": {
     "github": "^2.2.0",
-    "tessel": "~0.3.24",
     "tessel-thermalprinter": "~0.3.0"
   },
   "scripts": {
