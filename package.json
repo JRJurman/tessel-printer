@@ -1,0 +1,22 @@
+{
+  "name": "tessel-printer",
+  "version": "0.0.0",
+  "description": "Tessel project",
+  "main": "index.js",
+  "dependencies": {
+    "github": "^2.2.0",
+    "tessel": "~0.3.24",
+    "tessel-thermalprinter": "~0.3.0"
+  },
+  "scripts": {
+    "postinstall": "cp -r ticket-printer node_modules",
+    "start": "t2 run index.js --full",
+    "push": "t2 push index.js --full"
+  },
+  "repository": "https://github.com/JRJurman/tessel-printer.git",
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A bare bones Tessel 2 blinky script."
+}
